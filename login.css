@@ -1,0 +1,60 @@
+body{
+    background-image: url(gate.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.login{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.login2{
+    margin-top: 100px;
+    margin-left: -30px;
+    background-color: rgba(255, 255, 255, 0.356);
+    padding: 50px;
+    text-align: center;
+    backdrop-filter: blur(4px);
+    padding-left: 100px;
+    padding-right: 100px;
+    border:none;
+    border-radius:8px
+}
+span{
+    color:red
+}
+input{
+    padding: 10px;
+    padding-right: 60px;
+    font-size: 15px;
+    border-radius: 5px;
+    color:white;
+    background-color: rgba(0, 0, 0, 0.354);
+    border: none;
+}
+.for[user]{
+    color: aqua;
+}
+button{
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: red;
+    font-weight: bold;
+}
+::placeholder{
+    color:white
+}
+h1{
+    font-size: 50px;
+}
+button:hover{
+    color:black;
+}
+input:hover{
+    border:2px solid red;
+}

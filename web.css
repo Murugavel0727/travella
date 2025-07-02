@@ -1,0 +1,134 @@
+a{
+    text-decoration: none;color: black;
+}
+.navi{
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    background-color:rgb(255, 255, 255);
+    border-radius: 5px;
+}
+h1{
+    font-size: 30px;
+    margin-top: 20px;
+}
+.navi>a button{
+    position: sticky;
+    top:0;
+    margin-top:15px ;
+    margin-right: 30px;
+    padding: 14px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    box-shadow: 1px 1px 4px ;
+}
+.navi>a button:hover{
+    transform: scale(0.9);
+    transition: 0.1s;
+
+}
+.place2>div button{
+    position: absolute;
+    top:450px;
+    left:43%;
+    background-color:black;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    font-size: 25px;
+    z-index: 10;
+}
+.place2>div button:hover{
+    box-shadow: 3px .3px 3px ;
+    margin-top:5px;
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.place2{
+    position: relative;
+    width: 100%;
+    min-width: 600px; 
+    z-index: 1;
+}
+
+.imgtext{
+    position: fixed;
+    top: 25%;
+    left: 21%;
+    color: rgb(6, 6, 6);
+    font-size: 100px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 8px;
+    z-index: 1;
+}
+.quotes{
+    position: fixed;
+    top: 45%;
+    left: 41%;
+    color: rgb(6, 6, 6);
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 8px;
+    z-index: 1;
+}
+.place2 >a{
+    position: absolute;
+    z-index: 1;
+}
+.place2>.land a{
+    position: absolute;
+    left: 190px;
+    
+}
+.place2>.land:hover .top{
+    display: block;
+}
+.top>ul{
+    list-style-type: none;
+    font-weight: bold;
+    font-size: 18px;
+    padding-right: 15px;
+    padding-left: 10px;
+}
+.top>ul a:hover  {
+    text-shadow: 1px 1px 1px;
+    transform: scale(1.01);
+    color: red;
+    display: block;
+}
+hr{
+    background-color: rgb(248, 244, 244);
+    height: 2px;
+    border: none;
+}
+.top{
+    position:absolute;
+    top:130px;
+    right: 1200px;
+    width: 400px;
+    color: white;
+    background-color: rgba(61, 57, 57, 0.388);
+    border-radius: 5px;
+    display: none;
+}
+.land:hover .top{
+    display: block;
+    animation:land 0.6s  ease;  
+}
+@keyframes land{
+    0%{transform:scale(0.8);}
+    50%{transform:scale(1.08)}
+    100%{transform:scale(1);}
+}
+body{
+    background-image: url(travel.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+    

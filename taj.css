@@ -1,0 +1,88 @@
+
+.caro{
+   position: absolute;
+   top: 100px;
+   left: 30px;
+   margin: 50px;
+}
+.caro img{
+  border-radius: 10px;
+}
+.navi{
+    position: fixed;
+    width: 100%;
+    top:40px;
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    background-color:rgba(180, 176, 176, 0.349);
+    backdrop-filter: blur(10px);
+    border-radius: 5px;   
+    z-index: 10;
+}
+.navi span{
+    color:red;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.tajcard{
+    position: absolute;
+    top:150px;
+    right:140px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 4px 6px 6px;
+}
+input{
+    border-radius: 5px;
+    width: 350px;
+    padding: 10px;
+    font-weight: 600;
+}
+h1{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+h2{
+    color: red;
+    font-weight: bold;
+}
+h4{
+    font-weight: 700;
+    font-style: italic;
+}
+.tajcard span{
+    font-style: normal;
+    font-weight: 400;
+}
+.conbut button{
+    border: none;
+    border-radius: 5px;
+    background-color: greenyellow;
+    font-weight: bold;
+    padding: 10px;
+}
+.conbut{
+    text-align: center;
+}
+.fbut  {
+    background-color: blue;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    
+}
+.fbut1 {
+    background-color:gray;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+#fbutid{
+    text-align: right;
+}
+
+
