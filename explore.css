@@ -11,8 +11,8 @@ body{
 
 .navi{
     position: fixed;
-    width: 100%;
-    top:40px;
+    width: 1505px;
+    top:10px;
     display: flex;
     height: 70px;
     justify-content: space-between;
@@ -27,7 +27,7 @@ a{
 }
 .explore{
     position: sticky;
-    top:40px;
+    top:20px;
     margin-top: 200px;
     margin-left: 160px;
     text-align: center ;
@@ -48,13 +48,11 @@ span{
 }
 .grid{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 100px;
     column-gap: 300px;
     padding: 20px;
-    margin-left: 200px;
-    max-width: 1000px;
-    min-width: 600px;
+    margin-left: 240px;
   }
 
 .b1{
@@ -86,24 +84,22 @@ img:hover{
 }
 .about{
     position: absolute;
-    width: 100%;
+    width: 1503px;
     display: flex;
     background-color: black;
     color: white;
-    gap:30px;
     margin-left: -20px;
     padding-left: 30px;
-    padding-right: 300px;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 #eroad{
   position:absolute;
-  margin-left: 620px;
-  margin-top: 102px;
-  height: 1350px;
+  margin-left: 40px;
+  margin-top: 117px;
+  height: 400vh;
 }
 #ecar{
     position: fixed;
-    left: 707px;
+    margin-left: 116px;
     margin-top: 150px;
 }
