@@ -19,6 +19,7 @@ body{
     background-color:rgba(180, 176, 176, 0.349);
     backdrop-filter: blur(10px);
     border-radius: 5px;   
+    box-shadow: 0px 5px 20px;
     z-index: 10;
 }
 a{
