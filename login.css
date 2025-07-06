@@ -7,7 +7,7 @@ body{
 .login{
     display: flex;
     justify-content: center;
-    padding: 10px;
+    margin-top: -30px;
 }
 .login2{
     margin-top: 100px;
@@ -19,7 +19,7 @@ body{
     padding-left: 100px;
     padding-right: 100px;
     border:none;
-    border-radius:8px
+    border-radius:8px;
 }
 span{
     color:red
@@ -31,10 +31,7 @@ input{
     border-radius: 5px;
     color:white;
     background-color: rgba(0, 0, 0, 0.354);
-    border: none;
-}
-.for[user]{
-    color: aqua;
+    border: 2px solid transparent;
 }
 button{
     padding: 10px;
@@ -56,5 +53,12 @@ button:hover{
     color:black;
 }
 input:hover{
-    border:2px solid red;
+    border:2px solid rgb(247, 242, 242);
+}
+a{
+    text-decoration:none;
+    font-weight: bold;
+}
+a:hover{
+    text-decoration: underline;
 }
